@@ -1,0 +1,14 @@
+.submit {
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.submit-btn {
+  height: 40px;
+  width: 90%;
+  margin: 10px 5%;
+  background-color: orange;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}

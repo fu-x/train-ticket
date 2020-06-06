@@ -1,0 +1,40 @@
+.high-speed {
+  height: 45px;
+  padding: 0 10px;
+  margin: 5px 10px;
+  line-height: 45px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.high-speed-text {
+  color: #666;
+  font-size: 13px;
+}
+.btn-outside {
+  width: 60px;
+  height: 30px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  position: relative;
+  transition: background-color ease-out 0.5s;
+}
+.btn-inner {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  transition: left ease-out .2s;
+}
+.active-outside {
+  background-color: rgb(40, 179, 28);
+}
+.active-inner {
+  left: 30px;
+}

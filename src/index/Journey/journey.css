@@ -1,0 +1,27 @@
+.journey {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin: 5px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.journey-station {
+  flex: 1
+}
+
+.journey-switch {
+  width: 70px;
+}
+
+.station-input {
+  width: 100%;
+  background-color: #f5f5f5;
+  outline: none;
+  border: none;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 800;
+}
